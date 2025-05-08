@@ -1,1 +1,24 @@
 
+.artifacts
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Model artifacts and outputs
+artifacts/
+
+# Egg info
+*.egg-info/
+
+# OS-specific
+.DS_Store
+Thumbs.db
