@@ -12,8 +12,6 @@ logs/
 # Jupyter artifacts
 .ipynb_checkpoints/
 
-# Model artifacts and outputs
-artifacts/
 
 # Egg info
 *.egg-info/
