@@ -3,6 +3,6 @@ services:
     name: student-performance-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    startCommand: gunicorn application:app
     region: oregon
     plan: free
