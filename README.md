@@ -1,64 +1,73 @@
 # 🎓 Student Exam Performance Predictor
 
-This is a Machine Learning web application that predicts a student's **math exam score** based on attributes like gender, parental education, lunch type, and more.
+This is a machine learning web application that predicts a student's **math exam score** based on features like gender, parental education, lunch type, and more.
 
-🚀 **Live Demo:** [Click here to view app](https://ml-project-ibmc.onrender.com/)
+🔗 **Live Demo**: [Click here to view the app](https://mlproject-cna9clehfm3gjb7f9qdzud.streamlit.app)
 
 ---
 
 ## 📊 Project Overview
 
-This project uses machine learning (Regression with CatBoost/XGBoost/RandomForest) to estimate the math score of a student based on:
+This project uses supervised learning (regression) to estimate a student's math score based on the following input features:
 
-- Gender  
-- Race/Ethnicity  
-- Parental level of education  
-- Lunch type  
-- Test preparation course  
-- Reading score  
-- Writing score  
+- Gender
+- Race/Ethnicity
+- Parental level of education
+- Lunch type
+- Test preparation course
+- Reading score
+- Writing score
+
+It utilizes models like **CatBoost**, **XGBoost**, and **Random Forest** for robust predictions.
 
 ---
 
 ## 🧠 ML Workflow
 
-- Data Cleaning and Preprocessing
-- Feature Engineering
-- Model Training (Scikit-Learn)
-- Evaluation
-- Flask API for prediction
-- Deployment on Render
+1. **Data Cleaning & Preprocessing**  
+2. **Feature Engineering**  
+3. **Model Training (Scikit-learn + Other ML Libraries)**  
+4. **Model Evaluation**  
+5. **API Creation using Flask**  
+6. **Deployment using Streamlit Cloud**
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose                         |
-|------------|----------------------------------|
-| Python     | Programming Language             |
-| Flask      | Web Framework (Backend)          |
-| HTML/CSS   | Frontend UI                      |
-| Pandas     | Data Handling                    |
-| Scikit-learn | ML Model Building              |
-| Gunicorn   | WSGI Server for deployment       |
-| Render     | Hosting Platform                 |
+| Technology       | Purpose                          |
+|------------------|----------------------------------|
+| Python           | Core programming language        |
+| Streamlit        | Frontend UI & web deployment     |
+| Flask            | Backend API for prediction       |
+| Pandas           | Data manipulation and analysis   |
+| Scikit-learn     | ML model building and evaluation |
+| CatBoost/XGBoost | Advanced regression models       |
+| Matplotlib/Seaborn | Visualization                  |
+| Git & GitHub     | Version control                  |
 
 ---
+
 ## 🚀 Deployment
 
-The project is deployed on **Render**.  
+The app is deployed using **Streamlit Community Cloud**.
+
 To deploy your own version:
 
-1. Fork this repo
-2. Connect to Render
-3. Add `render.yaml`
-4. Set build command: `pip install -r requirements.txt`
-5. Set start command: `gunicorn app:app`
+1. **Fork** this repository  
+2. Sign in to [Streamlit Cloud](https://streamlit.io/cloud))  
+3. Click **“Deploy an app”**  
+4. Fill in:
+   - **GitHub repo**: `Samima09/ML_Project`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+5. Done! Your app is live 🚀
+
+---
 
 ## 🤝 Author
 
-👩‍💻 **Samima Afroj**  
-📧 samimaafroj0@gmail.com  
-🌐 [GitHub Profile](https://github.com/Samima09)
-
+**👩‍💻 Samima Afroj**  
+📧 [samimaafroj0@gmail.com](mailto:samimaafroj0@gmail.com)  
+🌐 [GitHub: @Samima09](https://github.com/Samima09)
 
